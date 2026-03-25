@@ -269,15 +269,7 @@
     color: rgba(247,245,240,0.65);
   }
 
-  .how-note {
-    margin-top: 24px;
-    font-size: 15px;
-    line-height: 1.7;
-    color: rgba(247,245,240,0.5);
-    max-width: 600px;
-    border-left: 2px solid var(--gold);
-    padding-left: 24px;
-  }
+  .how-pre + .how-pre { margin-top: 2px; }
 
   /* dark → paper bridge */
   .section-how-bridge-out {
@@ -882,7 +874,10 @@
       <p class="how-pre-text">El miembro que presenta comparte su caso por escrito con anticipación — contexto, situación y la pregunta central que quiere trabajar. Los demás llegan habiendo leído. Eso cambia la calidad de la conversación desde el primer minuto.</p>
     </div>
 
-    <p class="how-note reveal">Si el grupo quiere trabajar dos casos en la misma sesión, se extiende. La estructura se adapta a lo que haga falta — no al revés.</p>
+    <div class="how-pre reveal">
+      <div class="how-pre-label">Durante la reunión</div>
+      <p class="how-pre-text">Si el grupo quiere trabajar dos casos en la misma sesión, se extiende. La estructura se adapta a lo que haga falta — no al revés.</p>
+    </div>
   </div>
 </section>
 
